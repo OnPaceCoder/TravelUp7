@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth ">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <link rel="stylesheet" href="build.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-slate-200">
+  <!-- Nav Bar -->
+
+
+
+  <div class="home" id="home">
+
+
+
+
+
+    <nav class="flex  justify-between mx-6 py-5 sm:mx-24 bg-opacity-25">
+
+
+      <div class="">
+        <i class="fa-solid fa-mountain-sun text-2xl"><span class=""> Travel-UP</span></i>
+      </div>
+
+
+
+      <div class="">
+
+        <input class="peer hidden" type="checkbox" name="hamburger" id="hamburger" checked>
+
+        <label for="hamburger"
+          class="peer-checked:hamburger block relative cursor-pointer md:hidden transition-all duration-300 ml-8 ">
+
+          <div class="m-1 w-5 h-0.5 rounded bg-gray-300 transition-all duration-300"></div>
+          <div class="m-1 w-5 h-0.5 rounded bg-gray-300 transition-all duration-300"></div>
+          <div class="m-1 w-5 h-0.5 rounded bg-gray-300 transition-all duration-300"></div>
+
+        </label>
+
+        <!-- After click Vertical Navbar in small devices -->
+
+        <div class="translate-x-2 peer-checked:translate-x-96 
+            
+            bg-none transition-all duration-300 ease-in-out ">
+
+          <div class="md:hidden flex text-gray-900 flex-col items-center   space-y-4 pt-10 text-base">
+            <a href="#home">Home</a>
+            <a href="#places">Places</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#footer">Contact Us</a>
+          </div>
+
+
+
+        </div>
+
+
+
+
+
+      </div>
+
+
+
+
+      <div class="hidden md:block text-white  ">
+        <ul class="space-x-14"><a href="#home" class="hover:text-gray-500">Home</a><a href="#places"
+            class="hover:text-gray-500">Places</a><a href="#blogs" class="hover:text-gray-500">Blogs</a><a
+            href="#footer" class="hover:text-gray-500">ContactUs</a></ul>
+      </div>
+
+
+    </nav>
+
+
+
+
+
+
+
+
+
+
+    <div class="flex flex-col">
+      <div class="flex flex-col items-center mt-8 md:mt-36 pb-0">
+        <div
+          class="text-xl text-white border-2 border-white py-2 px-4 hover:bg-opacity-25 active:bg-opacity-50 active:transition-all active:duration-500 transition-all ease-in-out duration-200 focus:bg-opacity-50 hover:bg-white rounded">
+          <a href="#places">Explore</a>
+        </div>
+        <div class="mt-12 text-2xl text-gray-50 font-extrabold lg:text-6xl">
+          Incredible Earth!
+        </div>
+
+      </div>
+
+      <div class="flex flex-col items-center w-auto text-white mt-16 lg:mt-36">
+        <p class="text-sm mb-3 md:text-xl lg:text-3xl font-semi bold">
+          India's Best Travel Organization
+        </p>
+        <div class="flex lg:space-x-10 space-x-4">
+          <div class="flex items-center">
+            <div>
+              <i class="fa-solid fa-people-group text-2xl mr-2"></i>
+            </div>
+            <div>
+              <div class="text-sm">1,50,000</div>
+              <div class="text-sm">Participants</div>
+            </div>
+          </div>
+
+          <div class="flex items-center">
+            <div><i class="fa-solid fa-tent text-2xl mr-2"></i></div>
+            <div>
+              <div class="text-sm">50+</div>
+              <div class="text-sm">Treks</div>
+            </div>
+          </div>
+          <div class="flex items-center">
+            <div>
+              <i class="fa-solid fa-hands-holding-circle text-2xl mr-2"></i>
+            </div>
+            <div>
+              <div class="text-sm">8+</div>
+              <div class="text-sm">Years</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header Info -->
+  <div id="places" class="flex flex-col items-center py-20 bg-zinc-50">
+    <div class="md:text-4xl text-2xl font-semibold my-5">
+      You'll fall in love with India
+    </div>
+    <div class="text-gray-500 md:text-sm text-xs mb-10">
+      Explore India from kashmir to Kaniyakumari
+    </div>
+  </div>
+
+  <!-- Scroll Row 1 -->
+  <div class="">
+    <div class="flex justify-center my-5 font-bold text-3xl text-gray-800 font-serif">
+      North India
+    </div>
+
+    <div class="snap-x flex snap-mandatory overflow-x-scroll m-4 space-x-3 pb-14">
+      <div class="flex-shrink-0 snap-center">
+
+        <a href="delhi_info.html">
+          <img class="h-96 w-80 rounded-2xl" src="Images/Delhi.jpg" />
+
+        </a>
+        <div class="flex justify-center -mt-10 text-white text-2xl font-bold uppercase">
+          Delhi
+        </div>
+        <div></div>
+      </div>
+      <div class="flex-shrink-0 snap-center">
+        <img class="h-96 w-80 rounded-2xl" src="Images/Leh.jpg" />
+        <div class="flex justify-center -mt-10 text-white text-2xl font-bold uppercase">
+          Leh
+        </div>
+      </div>
+      <div class="flex-shrink-0 snap-center">
+        <img class="h-96 w-80 rounded-2xl" src="Images/Manali.jpg" />
+        <div class="flex justify-center -mt-10 text-white text-2xl font-bold uppercase">
+          Manali
+        </div>
+      </div>
+      <div class="flex-shrink-0 snap-center">
+        <img class="h-96 w-80 rounded-2xl" src="Images/Manli.jpg" />
+        <div class="flex justify-center -mt-10 text-white text-2xl font-bold uppercase">
+          Rohtang Pass
+        </div>
+      </div>
+      <div class="flex-shrink-0 snap-center">
+        <img class="h-96 w-80 rounded-2xl" src="Images/Buddha.jpg" />
+        <div class="flex justify-center -mt-10 text-white text-2xl font-bold uppercase">
+          Ladakh
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll Row 3 -->
+  <div class="">
+    <div class="flex justify-center my-5 font-bold text-3xl text-gray-800 font-serif">
+      North-East India
+    </div>
+
+    <div class="snap-x flex snap-mandatory overflow-x-scroll mx-4 space-x-3 pb-14">
+      <div class="flex-shrink-0 snap-center">
+        <img class="h-96 w-80 rounded-2xl" src="Images/Meghalaya.jpg" />
+        <div class="flex justify-center -mt-10 text-white text-2xl font-bold uppercase">
+          Shillong
+        </div>
+        <div></div>
+      </div>
+      <div class="flex-shrink-0 snap-center">
+        <img class="h-96 w-80 rounded-2xl" src="Images/Sikkim.jpg" />
+        <div class="flex justify-center -mt-10 text-white text-2xl font-bold uppercase">
+          sikkim
+        </div>
+      </div>
+      <div class="flex-shrink-0 snap-center">
+        <img class="h-96 w-80 rounded-2xl" src="Images/Assam2.jpg" />
+        <div class="flex justify-center -mt-10 text-white text-2xl font-bold uppercase">
+          Darjeeling
+        </div>
+      </div>
+      <div class="flex-shrink-0 snap-center">
+        <img class="h-96 w-80 rounded-2xl" src="Images/AP.jpg" />
+        <div class="flex justify-center -mt-10 text-white text-2xl font-bold uppercase">
+          Arunchal Pradesh
+        </div>
+      </div>
+      <div class="flex-shrink-0 snap-center">
+        <img class="h-96 w-80 rounded-2xl" src="Images/MG.jpg" />
+        <div class="flex justify-center -mt-10 text-white text-2xl font-bold uppercase">
+          Cherrapunki
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll Row 4 -->
+  <div class="">
+    <div class="flex justify-center my-5 font-bold text-3xl text-gray-800 font-serif">
+      South India
+    </div>
+
+    <div class="snap-x flex snap-mandatory overflow-x-scroll m-4 space-x-3 pb-14">
+      <div class="flex-shrink-0 snap-center">
+        <img class="h-96 w-80 rounded-2xl" src="Images/KaniyaKumari.jpg" />
+        <div class="flex justify-center -mt-10 text-white text-2xl font-bold uppercase">
+          KaniyaKumari
+        </div>
+        <div></div>
+      </div>
+      <div class="flex-shrink-0 snap-center">
+        <img class="h-96 w-80 rounded-2xl" src="Images/Hampi.jpg" />
+        <div class="flex justify-center -mt-10 text-white text-2xl font-bold uppercase">
+          Hampi
+        </div>
+      </div>
+      <div class="flex-shrink-0 snap-center">
+        <img class="h-96 w-80 rounded-2xl" src="Images/OOty.jpg" />
+        <div class="flex justify-center -mt-10 text-white text-2xl font-bold uppercase">
+          OOty
+        </div>
+      </div>
+      <div class="flex-shrink-0 snap-center">
+        <img class="h-96 w-80 rounded-2xl" src="Images/Munnary.jpg" />
+        <div class="flex justify-center -mt-10 text-white text-2xl font-bold uppercase">
+          Munnar
+        </div>
+      </div>
+      <div class="flex-shrink-0 snap-center">
+        <img class="h-96 w-80 rounded-2xl" src="Images/Hyderabad.jpg" />
+        <div class="flex justify-center -mt-10 text-white text-2xl font-bold uppercase">
+          Hyderabad
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Blog section -->
+  <div id="blogs" class="flex flex-col items-center py-20 bg-zinc-50">
+    <div class="md:text-4xl text-2xl font-semibold my-5">
+      Blogs and Articles
+    </div>
+    <div class="text-gray-500 md:text-sm text-xs mb-10">
+      Stay informed with the latest traveling articles
+    </div>
+  </div>
+
+  <div class="px-8 my-20 py-8 md:flex md:space-x-5 space-y-10 md:space-y-0">
+    <div class="md:w-1/3 w-full">
+      <img class="rounded-lg h-80 w-92 hover:drop-shadow-2xl" src="Images/IndiaGate.jpg" alt="" />
+      <div class="flex flex-col mb-10">
+        <a href="article1.html" class="text-violet-900 mt-4 inline-block hover:cursor-pointer">Article</a>
+        <h3 class="text-black font-semibold my-4">
+          Explore the rich history and heritage of Delhi
+        </h3>
+        <p class="text-sm text-justify">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+          eum aliquid nihil dolores sunt rem quo quaerat minima amet sapiente.
+        </p>
+      </div>
+    </div>
+
+    <div class="md:w-1/3 w-full">
+      <img class="rounded-lg h-80 w-92 hover:drop-shadow-2xl" src="Images/Pondicherry.jpg" alt="" />
+      <div>
+        <a href="article2.html" class="text-violet-900 mt-4 inline-block hover:cursor-pointer">Article</a>
+
+        <h3 class="text-black font-semibold my-4">
+          Pondicherry Is Dropping Its COVID Testing
+        </h3>
+        <p class="text-sm text-justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+          blanditiis deleniti harum sed minus voluptatibus voluptatum non
+          eveniet possimus quidem.
+        </p>
+      </div>
+    </div>
+    <div class="md:w-1/3 w-full">
+      <img class="rounded-lg h-80 w-92 hover:drop-shadow-2xl" src="Images/Leh_Ladakh.jpg" alt="" />
+      <div>
+        <a href="article3.html" class="text-violet-900 mt-4 inline-block hover:cursor-pointer">Article</a>
+
+        <h3 class="text-black font-semibold my-4">
+          Travel Leh and Ladakh during Fall!
+        </h3>
+        <p class="text-sm text-justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+          aliquam quod, deserunt necessitatibus sit perspiciatis ut nemo quo
+          repudiandae sed!
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Comment Section3 -->
+  <div class="flex flex-col items-center  py-20 bg-zinc-50">
+    <div class="md:text-4xl text-2xl font-semibold my-5">
+      How our customers felt for us
+    </div>
+    <div class="text-gray-500 md:text-sm text-xs mb-10">
+      Who are in extreme love with friendly & inviting people
+    </div>
+  </div>
+
+  <div class="w-auto mt-10 mb-5 flex flex-col items-center space-y-8 text-justify">
+
+    <div class="w-2/3">
+      <!-- left Section -->
+      <div class="flex space-x-5">
+        <div>
+          <img src="Images/Jack.jpg" alt="" srcset="" class="w-12 h-12 rounded-full ring-1 p-1" />
+        </div>
+
+        <div>
+          <h3 class="font-semibold">Emily Selman</h3>
+          <p class="text-gray-500">June 16, 2022</p>
+          <i class="fa-solid fa-star text-yellow-500"></i>
+          <i class="fa-solid fa-star text-yellow-500"></i>
+          <i class="fa-solid fa-star text-yellow-500"></i>
+          <i class="fa-solid fa-star text-yellow-500"></i>
+          <i class="fa-solid fa-star text-yellow-500"></i>
+        </div>
+      </div>
+      <!-- Right Section -->
+      <div class="py-5">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+          suscipit labore aut laboriosam perspiciatis deserunt consequuntur
+          expedita nobis ipsum eum accusantium, sequi dolor incidunt enim ex
+          asperiores fugiat quisquam! Eaque?
+        </p>
+      </div>
+
+      <br />
+      <hr class="border-2" />
+    </div>
+
+    <div class="w-2/3">
+      <!-- left Section -->
+      <div class="flex space-x-5">
+        <div>
+          <img src="Images/Jack.jpg" alt="" srcset="" class="w-12 h-12 rounded-full ring-1 p-1" />
+        </div>
+
+        <div>
+          <h3 class="font-semibold">Alex Ryan</h3>
+          <p class="text-gray-500">April 12, 2022</p>
+          <i class="fa-solid fa-star text-yellow-500"></i>
+          <i class="fa-solid fa-star text-yellow-500"></i>
+          <i class="fa-solid fa-star text-yellow-500"></i>
+          <i class="fa-solid fa-star text-yellow-500"></i>
+          <i class="fa-solid fa-star text-yellow-500"></i>
+        </div>
+      </div>
+      <!-- Right Section -->
+      <div class="py-5">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+          suscipit labore aut laboriosam perspiciatis deserunt consequuntur
+          expedita nobis ipsum eum accusantium, sequi dolor incidunt enim ex
+          asperiores fugiat quisquam! Eaque?
+        </p>
+      </div>
+      <br />
+      <hr class="border-2" />
+    </div>
+
+    <div class="w-2/3">
+      <!-- left Section -->
+      <div class="flex space-x-5">
+        <div>
+          <img src="Images/Jack.jpg" alt="" srcset="" class="w-12 h-12 rounded-full ring-1 p-1" />
+        </div>
+
+        <div>
+          <h3 class="font-semibold">Mack Johnson</h3>
+          <p class="text-gray-500">November 10, 2021</p>
+          <i class="fa-solid fa-star text-yellow-500"></i>
+          <i class="fa-solid fa-star text-yellow-500"></i>
+          <i class="fa-solid fa-star text-yellow-500"></i>
+          <i class="fa-solid fa-star text-yellow-500"></i>
+          <i class="fa-solid fa-star text-yellow-500"></i>
+        </div>
+      </div>
+      <!-- Right Section -->
+      <div class="py-5">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+          suscipit labore aut laboriosam perspiciatis deserunt consequuntur
+          expedita nobis ipsum eum accusantium, sequi dolor incidunt enim ex
+          asperiores fugiat quisquam! Eaque?
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Info -->
+
+  <div class="py-8 px-8 flex flex-col space-y-6 text-justify text-xs text-gray-600 bg-zinc-200">
+    <div class="space-y-2">
+      <h4 class="font-bold">Product offering</h4>
+      <p>
+        Flights, International Flights, Charter Flights, Hotels, International
+        Hotels, Homestays and Villas, Activities, Holidays In India,
+        International Holidays, Book Hotels From UAE, myBiz for SME Travel,
+        Book Online Cabs, Book Bus Tickets, Book Train Tickets, Cheap Tickets
+        to India, Book Flights From US, Book Flights From UAE, Trip Planner,
+        Gift Cards, Trip Money, Trip Ideas, Travel Blog, PNR Status,
+        MakeMyTrip Advertising Solutions, One Way Cab
+      </p>
+    </div>
+    <div class="space-y-2">
+      <h4 class="font-bold">Travel Up</h4>
+      <p>
+        About Us, Investor Relations, Careers, Corporate Travel, MMT
+        Foundation, CSR Policy, myPartner - Travel Agent Portal, Foreign
+        Exchange, List your hotel, Partners- Redbus, Partners- Goibibo,
+        Advertise with Us
+      </p>
+    </div>
+    <div class="space-y-2">
+      <h4 class="font-bold">About the site</h4>
+      <p>
+        Customer Support, Payment Security, Privacy Policy, User Agreement,
+        Terms of Service, More Offices, Make A Payment, Work From Home
+      </p>
+    </div>
+    <div class="space-y-2">
+      <h4 class="font-bold">Quick Links</h4>
+      <p>
+        Delhi Chennai Flights, Delhi Mumbai Flights, Delhi Goa Flights,
+        Chennai Mumbai flights, Mumbai Hyderabad flights, Kolkata to Rupsi
+        Flights, Rupsi to Guwahati Flights, Pasighat to Guwahati Flights,
+        Delhi to Khajuraho Flights, Cochin to Agatti Island Flights, Hotels in
+        Delhi, Hotels in Mumbai, Hotels In Goa, Hotels In Jaipur, Hotels In
+        Ooty, Hotels In Udaipur, Hotels in Puri, Hotels In North Goa, Hotels
+        In Rishikesh, Honeymoon Packages, Kerala Packages, Kashmir Packages,
+        Ladakh Packages, Goa Packages, Thailand Packages, Sri Lanka Visa,
+        Thailand Visa, Explore Goa, Explore Manali, Explore Shimla, Explore
+        Jaipur, Explore Srinagar
+      </p>
+    </div>
+  </div>
+
+  <!-- footer -->
+
+  <div id="footer"
+    class="bg-zinc-300 py-16 px-7 md:flex-row md:flex text-base md:text-lg md:justify-between md:items-end w-auto">
+    <!-- left div -->
+    <div class="mb-10 md:mb-0">
+      <div class="my-4 text-gray-600">SignUp for Newsletter</div>
+      <form action="" class="flex">
+        <input class="py-2 px-4 outline-none w-3/4  rounded-l-md" placeholder="Email Address" type="email" name=""
+          id="" />
+        <button class="bg-red-600 text-zinc-300 hover:text-zinc-200 hover:bg-red-500 px-4 rounded-r-md">
+          Subscribe
+        </button>
+      </form>
+    </div>
+
+    <!-- right div -->
+
+    <div class="md:mb-0">
+      <i class="fa-brands fa-facebook-square md:text-3xl rounded text-2xl"></i>
+      <i class="fa-brands fa-google-plus-square md:text-3xl rounded text-2xl"></i>
+      <i class="fa-brands fa-instagram-square md:text-3xl rounded text-2xl"></i>
+      <i class="fa-brands fa-snapchat-square md:text-3xl rounded text-2xl"></i>
+
+      <div class="text-gray-600 mt-8 md:mt-0">
+        Copyright &copy; 2022 by Priyank Vasoya
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
